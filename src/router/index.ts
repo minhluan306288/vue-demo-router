@@ -15,7 +15,7 @@ const routes: any = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/vue-demo-router'),
     routes,
 });
     
